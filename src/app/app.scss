@@ -14,3 +14,31 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.content {
+    text-align: center;
+}
+
+.toolbar-background-md, .toolbar-background-ios {
+    background-color: #008B8B;
+}
+
+.toolbar-title-md, .toolbar-title-ios {
+    text-align: center;
+    color:white;
+}
+
+ion-header ion-icon.back-button-icon.icon {
+    color: white;
+}
+
+//Menu Bar Styling
+button.disable-hover.bar-buttons.bar-buttons-ios.bar-button.bar-button-ios.bar-button-default.bar-button-default-ios.bar-button-menutoggle.bar-button-menutoggle-ios,
+button.disable-hover.bar-buttons.bar-buttons-md.bar-button.bar-button-md.bar-button-default.bar-button-default-md.bar-button-menutoggle.bar-button-menutoggle-md {
+    color: white;
+}
+
+button.disable-hover.bar-buttons.bar-buttons-ios.bar-button.bar-button-ios.bar-button-default.bar-button-default-ios.bar-button-menutoggle.bar-button-menutoggle-ios::after,
+button.disable-hover.bar-buttons.bar-buttons-md.bar-button.bar-button-md.bar-button-default.bar-button-default-md.bar-button-menutoggle.bar-button-menutoggle-md::after {
+    color: white;
+}
